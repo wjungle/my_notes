@@ -40,18 +40,18 @@
   * 以資工系本科進入科技業，更能掌握技術文件，程式架構以及撰寫要訣。
   * 在晨星高壓的工作環境，使我之後面對艱困的工作條件，會有更強大的適應能力。
   * 在大公司學得大型軟體的分工方式，要求軟體撰寫風格，軟體共同開發，軟體版本控制(git)，靜態分析(coverity)所發現的程式漏洞。
-  * 習慣用在linux terminal裡下指令，會開始使用shell programming自己製作小腳本以節省開發時間。
+  * 習慣用在linux terminal裡下指令，會使用shell programming自己製作小腳本以節省開發時間。
   * 會利用linux的GCC compiler，把純軟體的功能拆解出來執行，減少在開發板，燒錄所花的時間。
   * 負責開發**Boot from Nand**專案，得到晨星內部的short term reward。
   
 ### 聯發科技 - 工程師(E7) (2019.01~2021.05)
-  * 針對多媒體splitter hardware IP module，撰寫測試程式，驗證報告以及其驅動程式。
+  * 針對多媒體splitter(slicer) hardware IP module，撰寫測試程式，驗證報告以及其驅動程式。
   * 針對系統上的 mailbox, ipc hardware IP module，撰寫測試程式，驗證報告以及其驅動程式。
-  * 驅動程式是以linux環境撰寫，自資策會習得linux device driver，首次在工作上運用到養成班所學技能。
+  * 驅動程式是以linux環境撰寫，自資策會習得linux device driver課程後，首次在工作上運用到養成班所學技能。
   * 以上皆是與designer討論ip功能後，一一撰寫其單元及組合驗證程式，另外還有邊界及dummy測試。
   * 負責協調模擬器，palladium機器上的Linux bring-up。
   * 在聯發的組織比晨星更為扁平，有些任務必須跨部門協調才能讓工作得以順利進展。
-  * 在這邊我學到了怎麼使用甘特圖來規劃並拆解自己的任務，以及跨部門的討論。
+  * 在這邊我學到了怎麼使用甘特圖來規劃並拆解自己的任務，以及習慣跨部門的討論。
   
 我認為最有價值的軟體工程師，除了技術，要懂系統，要不然就要懂商務
 在IC廠一直是做為一顆螺絲釘，我在IC廠的工作內容為
@@ -67,9 +67,9 @@
 
 ### 微馳智電 (2021.05~current)
   * 基於ITE的範例程式碼，了解整個系統，完成專案
-  * 到職後三個月即完成公司第一個出貨的project，抬頭顯示器f/w
-  * 除了抬頭顯示器的功能，也在裡面完成了產測程式，並且也有撰寫用到adc以及uart的解析程式
-  * 也利用cygwin撰寫測試程式，利用既有的uart driver，linux的pthread，semaphore等完成
+  * 到職後三個月即完成公司第一個出貨的project，抬頭顯示器firmware
+  * 除了抬頭顯示器的功能，也在裡面完成了產測程式，並且也有撰寫用到adc量測光源以調整背光，以及uart的解析程式
+  * 也利用cygwin撰寫測試程式，利用open source的uart driver，linux的pthread，semaphore等完成
   * 使用者可利用僅key in選單上的數字，即可產生不同的uart data進行測試。
   * 用C語言撰寫動態陣列，並利用adjacency matrix設計一資料結構，實作可客製化can id輸入，使能動態調配不同來源can data。
   * 接手nuvoton微處理器，調整其ring buffer實作方法，使其uarg接收傳送更有效率。
