@@ -69,6 +69,7 @@
   * 基於ITE的範例程式碼，了解整個系統，完成專案
   * 到職後三個月即完成公司第一個出貨的project，抬頭顯示器firmware
   * 除了抬頭顯示器的功能，也在裡面完成了產測程式，並且也有撰寫用到adc量測光源以調整背光，以及uart的解析程式
+  * 第一次撰寫需控制GUI的程式，在以往資策會有學QT，但在過往經歷少有機會碰到GUI程式。
   * 也利用cygwin撰寫測試程式，利用open source的uart driver，linux的pthread，semaphore等完成
   * 使用者可利用僅key in選單上的數字，即可產生不同的uart data進行測試。
   * 用C語言撰寫動態陣列，並利用adjacency matrix設計一資料結構，實作可客製化can id輸入，使能動態調配不同來源can data。
