@@ -75,5 +75,5 @@
   * 也利用cygwin撰寫測試程式，利用open source的uart driver，linux的pthread，semaphore等完成
   * 使用者可利用僅key in選單上的數字，即可產生不同的uart data進行測試。
   * 用C語言撰寫動態陣列，並利用adjacency matrix設計一資料結構，實作可客製化can id輸入，使能動態調配不同來源can data。
-  * 接手nuvoton微處理器，調整其ring buffer實作方法，使其uarg接收傳送更有效率。
+  * 接手nuvoton微處理器，調整其ring buffer實作方法，使其uart接收傳送更有效率。
   * 滿一年晉升為副課長，管理4人之軟體團隊。並著手開發新的儀表板專案。
