@@ -49,6 +49,7 @@
   * 針對系統上的 mailbox, ipc hardware IP module，撰寫測試程式，驗證報告以及其驅動程式。
   * 驅動程式是以linux環境撰寫，自資策會習得linux device driver課程後，首次在工作上運用到養成班所學技能。
   * 以上皆是與designer討論ip功能後，一一撰寫其單元及組合驗證程式，另外還有邊界及dummy測試。
+  * 在部門內報告及撰寫wiki文件皆是產量最多，報告LDD3以及記錄專案的wiki都頗受同仁好評。
   * 負責協調模擬器，palladium機器上的Linux bring-up。
   * 在聯發的組織比晨星更為扁平，有些任務必須跨部門協調才能讓工作得以順利進展。
   * 在這邊我學到了怎麼使用甘特圖來規劃並拆解自己的任務，以及習慣跨部門的討論。
@@ -69,11 +70,14 @@
 
 ### 微馳智電 - 資深工程師 -> 副課長 (2021.06~current)
   * 基於ITE的範例程式碼，了解整個系統，完成專案
-  * 到職後三個月即完成公司第一個出貨的project，抬頭顯示器firmware
+  * 到職後三個月即完成公司第一個出貨的專案，抬頭顯示器firmware
   * 除了抬頭顯示器的功能，也在裡面完成了產測程式，並且也有撰寫用到adc量測光源以調整背光，以及uart的解析程式
-  * 第一次撰寫需控制GUI的程式，在以往資策會有學QT，但在過往經歷少有機會碰到GUI程式。
-  * 也利用cygwin撰寫測試程式，利用open source的uart driver，linux的pthread，semaphore等完成
-  * 使用者可利用僅key in選單上的數字，即可產生不同的uart data進行測試。
-  * 用C語言撰寫動態陣列，並利用adjacency matrix設計一資料結構，實作可客製化can id輸入，使能動態調配不同來源can data。
+  * uart的解析程式是利用有限狀態機進行實作。
+  * 第一次撰寫需控制GUI的程式，在以往資策會有學習QT，但在過往經歷少有機會碰到GUI程式。
+  * 也利用cygwin撰寫測試程式，利用open source的uart driver，linux的pthread，semaphore等完成。
+  * main task為面對使用者的選單，另外的task等待使用者輸入選項進行傳送uart data進行測試。
+  * bring up兩片panel，使用非標準SPI初始化panel，使用I2C控制converter、移植EEPROM driver…等
+  * 用C語言撰寫動態陣列，並利用adjacency list設計一資料結構，實作可客製化can id輸入，使能動態調配接收不同來源can data。
   * 接手nuvoton微處理器，調整其ring buffer實作方法，使其uart接收傳送更有效率。
   * 滿一年晉升為副課長，管理4人之軟體團隊。並著手開發新的儀表板專案。
+  * 使用tree structure實作選單目錄；利用左子右兄將N元樹化成並建構二元樹，如此使用者邏輯可簡易實現。
