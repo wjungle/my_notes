@@ -1,10 +1,9 @@
 <table>
 <tr>
-    <td rowspan="4"> <b> <font size="7">王正綱 Jungle Wang </font></b><br/>
-        <br/>
+    <td rowspan="4"> <b> <h3>王正綱 Jungle Wang </h3></b><br/>
         Senior Firmware Engineer<br/>
         Taipei City</td>
-    <td rowspan="4"> <img src="https://example.com/media/photo.jpg" with="600" heigh="400" alt="一張圖片"> </td>
+    <td rowspan="4"> <img src="https://github.com/wjungle/my_notes/blob/master/resume/wjungle.jpg" width="150" heigh="80" alt="大頭照"> </td>
     <td>:iphone:</td>
     <td> </td>
 </tr>
