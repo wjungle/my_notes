@@ -1,4 +1,4 @@
-<table>
+<table align=center>
 <tr>
     <td rowspan="4"> <b> <h3>王正綱 Jungle Wang </h3></b><br/>
         Senior Firmware Engineer<br/>
@@ -23,6 +23,7 @@
 
 我的職涯雖跌跌撞撞，但我充滿勇氣、無懼冒險，並且有強大的行動力、執行力，環境適應能力以及不斷精進的自學能力。自從自資策會就業養成班結業之後，我一直以課程，當作我職涯發展的一個指南，目標就是成為一個全方位的嵌入式軟體工程師。無論是自學，進修，以及在IC廠或系統廠服務，都是在點滿我的嵌入式系統軟體技能樹。
 
+![](https://github.com/wjungle/my_notes/blob/master/resume/myFlow.png)
 
 ## 研究所前的科技產業經歷 
 ### 資策會嵌入式系統軟體設計就業養成班 (2009.04~2009.10)
