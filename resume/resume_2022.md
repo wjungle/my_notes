@@ -117,5 +117,12 @@
   * 用C語言撰寫動態陣列，並利用adjacency list設計一資料結構，實作可客製化can id輸入，使能動態調配接收不同來源can data。
   * 接手nuvoton微處理器，調整其ring buffer實作方法，使其uart接收傳送更有效率。
   * 滿一年晉升為副課長，管理4人之軟體團隊。並著手開發新的儀表板專案。
+  * 在團隊中開始建立以mark down語法的開發筆記，並引導同仁共同撰寫共筆。
   * 使用tree structure實作選單目錄；利用左子右兄將N元樹化成並建構二元樹，如此使用者邏輯可簡易實現。
+  * 參與設計會議，導入source tree規範，verification test plan。
+
+### 其他專案：caption player
+  * 利用python寫的一自學英文的工具。
+  * 載入.mp3與.srt，即可對於電影、影集做重覆聽的動作。
+  * `http://wjungle.blogspot.com/2022/01/mp3-english-player.html`
 
