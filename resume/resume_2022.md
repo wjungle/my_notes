@@ -124,5 +124,7 @@
 ### 其他專案：caption player
   * 利用python寫的一自學英文的工具。
   * 載入.mp3與.srt，即可對於電影、影集做重覆聽的動作。
+  * 可選goolge tts or microsoft  tts，中英文皆可發音。
+  * 英文字幕可利用google翻譯翻成中文，並存於字幕檔供下次使用。
   * `http://wjungle.blogspot.com/2022/01/mp3-english-player.html`
 
