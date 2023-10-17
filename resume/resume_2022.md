@@ -104,7 +104,7 @@
 我想要針對以上的不足找相對應的工作，所以我想到最快的就是去新創的系統廠
 ```
 
-### 微馳智電 - 資深工程師 -> 副課長 (2021.06~current)
+### 微馳智電 - 資深工程師 -> 副課長 -> 課長 (2021.06~current)
   * `ITE986X` `NUC131` `canbus` `data structure`
   * 基於ITE的範例程式碼，了解整個系統，完成專案
   * 到職後三個月即完成公司第一個出貨的專案，抬頭顯示器firmware
@@ -120,6 +120,12 @@
   * 在團隊中開始建立以mark down語法的開發筆記，並引導同仁共同撰寫共筆。
   * 使用tree structure實作選單目錄；利用左子右兄將N元樹化成並建構二元樹，如此使用者邏輯可簡易實現。
   * 參與設計會議，導入source tree規範，verification test plan。
+  * 2023/7/1，晉升課長
+  * 使用物件導向C語言撰寫公司專案需要之物組模組，如digitalNumber object。
+  * 配合公司教育訓練，撰寫並指導同仁利用物件導向撰寫程式，相關網誌
+     - [C語言使用物件導向(面向對象) - 上](https://wjungle.blogspot.com/2023/08/c.html)
+     - [C語言使用物件導向(面向對象) - 中](https://wjungle.blogspot.com/2023/08/c_23.html)
+  * 建立模仿泛型的方式，建立circualr buffer並可使用多種資料型態。
 
 ### 其他專案：caption player
   * 利用python寫的一自學英文的工具。
