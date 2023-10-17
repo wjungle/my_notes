@@ -105,7 +105,7 @@
 ```
 
 ### 微馳智電 - 資深工程師 -> 副課長 -> 課長 (2021.06~current)
-  * `ITE986X` `NUC131` `canbus` `data structure`
+  * `ITE986X` `NUC131` `canbus` `data structure` `OOC`
   * 基於ITE的範例程式碼，了解整個系統，完成專案
   * 到職後三個月即完成公司第一個出貨的專案，抬頭顯示器firmware
   * 除了抬頭顯示器的功能，也在裡面完成了產測程式，並且也有撰寫用到adc量測光源以調整背光，以及uart的解析程式
