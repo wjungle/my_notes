@@ -120,7 +120,7 @@
   * 使用tree structure實作選單目錄；利用左子右兄將N元樹化成並建構二元樹，如此使用者邏輯可簡易實現。
   * 參與設計會議，導入source tree規範，verification test plan。
   * 2023/7/1到職滿兩年，晉升課長
-  * 使用物件導向C語言撰寫公司專案需要之物件模組，如digitalNumber object。
+  * 使用物件導向C語言撰寫公司專案需要之物件模組，如digitalNumber object，counter object，timer object。
   * 配合公司教育訓練，撰寫並指導同仁利用物件導向撰寫程式，相關網誌
      - [C語言使用物件導向(面向對象) - 上](https://wjungle.blogspot.com/2023/08/c.html)
      - [C語言使用物件導向(面向對象) - 中](https://wjungle.blogspot.com/2023/08/c_23.html)
