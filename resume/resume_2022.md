@@ -128,6 +128,7 @@
      - [C語言使用物件導向(面向對象) - 下 多態(型)](https://wjungle.blogspot.com/2024/01/c_01148638334.html)
   * 建立模仿泛型的方式，建立circualr buffer並可使用多種資料型態。
   * 主導公司軟體走向，建立專案所需的folder structure, data structrue, and object，使住後專案開發加速。
+  * 完成stellar儀表板韌體，為公司第二個出貨專案。
 
 ### 其他專案：caption player
   * 利用python寫的一自學英文的工具。
