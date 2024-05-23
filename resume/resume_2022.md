@@ -70,8 +70,8 @@
   
 ## 研究所後的科技產業經歷 
 ### 晨星半導體 - FAE資深工程師 (2016.04~2018.12)
-  * `Conax CA` `bootloader` `OTA`
-  * 針對conax project，bootloader的bring-up，除此還包含bootloader的更新軟體，bootloader載入不同的OS，以及OS所在不同flash的狀況，程式的撰寫及維護。
+  * `STB` `Conax CA` `bootloader` `OTA`
+  * Set-top box針對conax project，bootloader的bring-up，除此還包含bootloader的更新軟體，bootloader載入不同的OS，以及OS所在不同flash的狀況，程式的撰寫及維護。
   * 以資工系本科進入科技業，更能掌握技術文件，程式架構以及撰寫要訣。
   * 在晨星高壓的工作環境，使我之後面對艱困的工作條件，會有更強大的適應能力。
   * 在大公司學得大型軟體的分工方式，要求軟體撰寫風格，軟體共同開發，軟體版本控制(git)，靜態分析(coverity)所發現的程式漏洞。
