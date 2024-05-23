@@ -106,25 +106,25 @@
 
 ### 微馳智電 - 資深工程師 -> 副課長 -> 課長 (2021.06~current)
   * `ITE986X` `NUC131` `canbus` `data structure` `OOC`
-  * 基於ITE的範例程式碼，了解整個系統，完成專案
-  * 到職後三個月即完成公司第一個出貨的專案，抬頭顯示器firmware
-  * 除了抬頭顯示器的功能，也在裡面完成了產測程式，並且也有撰寫用到adc量測光源以調整背光，以及uart的解析程式
-  * uart的解析程式是利用有限狀態機進行實作。
-  * 第一次撰寫需控制GUI的程式，在以往資策會有學習QT，但在過往經歷少有機會碰到GUI程式。
-  * 也利用cygwin撰寫測試程式，利用open source的uart driver，linux的pthread，semaphore等完成。
+  * 基於ITE的範例程式碼，了解整個系統，完成公司樣品及專案。
+  * 到職三個月後即完成公司第一個出貨的專案，抬頭顯示器firmware。
+  * 另外包含產測程式，撰寫adc量測光源以調整背光，以及利用有限狀態機實作的uart解析程式。
+  * 撰寫人機互動GUI的程式。
+  * 利用cygwin撰寫測試程式，利用open source的uart driver，linux的pthread，semaphore等完成。
   * main task為面對使用者的選單，另外的task等待使用者輸入選項進行傳送uart data進行測試。
-  * bring up兩片panel，使用非標準SPI初始化panel，使用I2C控制converter、移植EEPROM driver…等
+  * bring up數片panel，使用非標準SPI初始化panel，使用I2C控制converter、移植EEPROM driver、RTC driver…等。
   * 用C語言撰寫動態陣列，並利用adjacency list設計一資料結構，實作可客製化can id輸入，使能動態調配接收不同來源can data。
   * 接手nuvoton微處理器，調整其ring buffer實作方法，使其uart接收傳送更有效率。
   * 滿一年晉升為副課長，管理4人之軟體團隊。並著手開發新的儀表板專案。
   * 在團隊中開始建立以mark down語法的開發筆記，並引導同仁共同撰寫共筆。
   * 使用tree structure實作選單目錄；利用左子右兄將N元樹化成並建構二元樹，如此使用者邏輯可簡易實現。
   * 參與設計會議，導入source tree規範，verification test plan。
-  * 2023/7/1，晉升課長
+  * 2023/7/1到職滿兩年，晉升課長
   * 使用物件導向C語言撰寫公司專案需要之物件模組，如digitalNumber object。
   * 配合公司教育訓練，撰寫並指導同仁利用物件導向撰寫程式，相關網誌
      - [C語言使用物件導向(面向對象) - 上](https://wjungle.blogspot.com/2023/08/c.html)
      - [C語言使用物件導向(面向對象) - 中](https://wjungle.blogspot.com/2023/08/c_23.html)
+     - [C語言使用物件導向(面向對象) - 下 多態(型)](https://wjungle.blogspot.com/2024/01/c_01148638334.html)
   * 建立模仿泛型的方式，建立circualr buffer並可使用多種資料型態。
   * 主導公司軟體走向，建立專案所需的folder structure, data structrue, and object，使住後專案開發加速。
 
