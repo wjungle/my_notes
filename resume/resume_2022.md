@@ -22,7 +22,7 @@
 </table>
 
 ### 與其說是我的自我介紹，不如說是從一位藝術學士，努力到聯發科工程師的勵志故事
-大學是藝術學士，唸的是設計系，碩士班攻讀資訊工程所，希望站在人文與科技的交會口，若 貴司願意給我機會，我將是一位感性理性兼具的工程師。 在晨星鑽研middleware，到聯發科深入底層與designer合作，了解module IP撰寫驗證晶片測試程式及驅動程式，後來到微馳統整系統，從驅動程式、架構系統與各式模組物件到GUI人機介面，帶領同事一起完成專案及多個樣品。我雖然不是電機出身，但我比電機更懂軟體，比軟體更懂UI，比UI更懂系統，比系統了解硬體。
+大學是藝術學士，唸的是設計系，碩士班攻讀資訊工程所，希望站在人文與科技的交會口，若 貴司願意給我機會，我將是一位感性理性兼具的工程師。 在晨星鑽研middleware，到聯發科深入底層與designer合作，了解module IP撰寫驗證晶片測試程式及驅動程式，後來到微馳統整系統，從驅動程式、架構系統與各式模組物件到GUI人機介面，帶領同事一起完成專案及多個樣品。我雖然不是電機出身，但我比電機更懂軟體的OS及資料結構，比韌體工程師還懂UI/UX，比軟體工程師還懂怎麼看datasheet。
 
 我的職涯雖跌跌撞撞，但我充滿勇氣、無懼冒險，並且有強大的行動力、執行力，環境適應能力以及不斷精進的自學能力。自從自資策會就業養成班結業之後，我一直以課程，當作我職涯發展的一個指南，目標就是成為一個全方位的嵌入式軟體工程師。無論是自學，進修，以及在IC廠或系統廠服務，都是在點滿我的嵌入式系統軟體技能樹。
 
@@ -107,28 +107,33 @@
 
 ### 微馳智電 - 資深工程師 -> 副課長 -> 課長 (2021.06~current)
   * `ITE986X` `NUC131` `canbus` `data structure` `OOC`
-  * 基於ITE的範例程式碼，了解整個系統，完成公司樣品及專案。
-  * 到職三個月後即完成公司第一個出貨的專案，抬頭顯示器firmware。
-  * 另外包含產測程式，撰寫adc量測光源以調整背光，以及利用有限狀態機實作的uart解析程式。
-  * 撰寫人機互動GUI的程式。
-  * 利用cygwin撰寫測試程式，利用open source的uart driver，linux的pthread，semaphore等完成。
-  * main task為面對使用者的選單，另外的task等待使用者輸入選項進行傳送uart data進行測試。
-  * bring up數片panel，使用非標準SPI初始化panel，使用I2C控制converter、移植EEPROM driver、RTC driver…等。
-  * 用C語言撰寫動態陣列，並利用adjacency list設計一資料結構，實作可客製化can id輸入，使能動態調配接收不同來源can data。
-  * 接手nuvoton微處理器，調整其ring buffer實作方法，使其uart接收傳送更有效率。
-  * 滿一年晉升為副課長，管理4人之軟體團隊。並著手開發新的儀表板專案。
-  * 在團隊中開始建立以mark down語法的開發筆記，並引導同仁共同撰寫共筆。
-  * 使用tree structure實作選單目錄；利用左子右兄將N元樹化成並建構二元樹，如此使用者邏輯可簡易實現。
-  * 參與設計會議，導入source tree規範，verification test plan。
-  * 2023/7/1到職滿兩年，晉升課長
-  * 使用物件導向C語言撰寫公司專案需要之物件模組，如digitalNumber object，counter object，timer object。
+  * 主導公司軟體走向，建立SoC專案所需的folder structure, data structure, and objects，加速專案開發。
+    - 參與設計會議，導入source tree規範，verification test plan。
+    - 使用C語言撰寫動態陣列，並利用adjacency list設計資料結構，實作可動態接收can id，動態調配接收不同來源can data，大幅減少未來不同專案之coding時間。
+    - 使用物件導向C語言撰寫公司專案需要之物件模組，如digitalNumber object，counter object，timer object。
+    - 使用tree structure實作選單目錄；利用左子右兄將N元樹化成並建構二元樹，如此使用者邏輯可簡易實現。
+ 
+  * 建立MCU專案所需基礎設施、程式架構、及source tree
+    - 調整其circualr buffer實作方法，使其uart接收傳送更有效率。
+    - 建立模仿泛型的方式，建立circualr buffer並可使用多種資料型態。
+    - 導入software multi-timer。
+    - 調整並強健uart及canbus通訊，降低通訊量及提升傳送率。
+
+  * 到職後一年升研發副課長，兩年後升研發課長，建立軟體單位的開發文化
+    - 管理2-4人之軟體團隊，建立coding style rules
+    - 在團隊中開始建立以mark down語法的開發筆記，並引導同仁共同撰寫共筆。
+    - 建立tracking table，追蹤單位內專案進度。
   * 配合公司教育訓練，撰寫並指導同仁利用物件導向撰寫程式，相關網誌
      - [C語言使用物件導向(面向對象) - 上](https://wjungle.blogspot.com/2023/08/c.html)
      - [C語言使用物件導向(面向對象) - 中](https://wjungle.blogspot.com/2023/08/c_23.html)
      - [C語言使用物件導向(面向對象) - 下 多態(型)](https://wjungle.blogspot.com/2024/01/c_01148638334.html)
-  * 建立模仿泛型的方式，建立circualr buffer並可使用多種資料型態。
-  * 主導公司軟體走向，建立專案所需的folder structure, data structrue, and object，使住後專案開發加速。
-  * 完成stellar儀表板韌體，為公司第三個出貨專案。
+  * 其他軟體實現
+     - 1個HUD專案實作，含產測程式，已出貨。
+     - 1個dashboard專案實作，已出貨。
+     - 利用cygwin撰寫測試程式
+     - 9個HMI Demo projects實作。
+     - 3片panel的bring up
+     - 非標準SPI、I2C控制converter、移植EEPROM driver、RTC driver
 
 ### 其他專案：caption player
   * 利用python寫的一自學英文的工具。
