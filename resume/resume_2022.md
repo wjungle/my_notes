@@ -105,7 +105,7 @@
 我想要針對以上的不足找相對應的工作，所以我想到最快的就是去新創的系統廠
 ```
 
-### 微馳智電 - 資深工程師 -> 副課長 -> 課長 (2021.06~current)
+### 微馳智電 - 資深工程師 -> 副課長 -> 課長 (2021.06~2024.06)
   * `ITE986X` `NUC131` `canbus` `data structure` `OOC`
   * 主導公司軟體走向，建立SoC專案所需的folder structure, data structure, and objects，加速專案開發。
     - 參與設計會議，導入source tree規範，verification test plan。
@@ -135,10 +135,37 @@
      - 3片panel的bring up
      - 非標準SPI、I2C控制converter、移植EEPROM driver、RTC driver
 
+### 天鈺科技 - 技術副理 (2024.06~current)
+  * `audio` `VAD` `AI`
+  * 藉由chatGPT實作各式VAD，AGC，及band pass filter
+  * FGPA verificatoin
+    - PDM and I2S IP verification
+    - PDM and I2S middleware driver實作
+    - VAD IP驗證及middleware driver實作
+　
+ * audio記憶體使用優化，zero copy實作
+    - 節省約85%記憶體用量
+ 
+ * 新晶片系統整合
+   - audio and video 功能系統整合
+   - 優化記憶體使用用量，task timing問題
+   - video task可被audio task插斷，audio後處理採用非同步task
+  
+ * audio lab架設
+   - 為測試語音識別而成立的實驗室
+   - 架設實驗室自動化測試流程by vibe coding
+   - 腳本自動執行，環境設定參數設定
+   - 實驗環境校正
+
 ### 其他專案：caption player
   * 利用python寫的一自學英文的工具。
   * 載入.mp3與.srt，即可對於電影、影集做重覆聽的動作。
   * 可選goolge tts or microsoft  tts，中英文皆可發音。
   * 英文字幕可利用google翻譯翻成中文，並存於字幕檔供下次使用。
   * `http://wjungle.blogspot.com/2022/01/mp3-english-player.html`
+
+### 其他專案：SubFit
+* 利用AI寫的一自學英文的web app
+* 全程使用chatGPT, gemini, and claude code
+* https://subfit.vercel.app
 
