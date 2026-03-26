@@ -21,7 +21,7 @@
 </tr>
 </table>
 
-### 專業總結 (Professional Summary)
+## 專業總結 (Professional Summary)
 我是一位具備10年經驗的資深韌體工程師，擁有藝術設計學士與資工碩士的跨領域背景。我的職涯從晨星半導體與聯發科的底層驅動開發紮根，隨後在系統廠帶領團隊建立物件導向C語言架構，成功實現車用系統平台的 HMI 與 SoC 系統整合。
 
 我具備獨特的跨領域整合能力，結合設計思考(Design Thinking)及資工碩士的嚴謹邏輯，能深度解讀 Datasheet 並精準設計底層驅動，同時賦予系統模組化架構思維。透過 OOC 的導入，有效提升代碼重用率並顯著縮短產品原型開發週期。我致力於在嵌入式系統中實現高效、可維護且具備優質使用者體驗的架構設計，擔任串接硬體、軟體與終端使用者的核心橋樑。
@@ -30,8 +30,6 @@
    * Domains: Audio Processing (VAD/AGC), Linux Device Driver, SoC Verification, RTOS.
    * Architecture: Object-Oriented C (OOC), Memory Optimization.
    * Leadership: Team Management, Agile Development, Technical Mentoring.
-
-![](https://github.com/wjungle/my_notes/blob/master/resume/myFlow.png)
 
 ## 跨領域背景：設計思考與溝通能力的養成 (2004 - 2009)
 大學就讀輔仁大學景觀設計系。這段設計養成教育訓練了我的「設計思考 (Design Thinking)」與高頻率「評圖 (Design Review)」的抗壓性，使我具備在專業領域下，能清晰解說作品並與不同專家溝通的能力。
